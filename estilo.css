@@ -77,7 +77,22 @@ a{
         border: none;
         cursor: pointer;
     }
-    
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button{
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
 }
 .intro{
     font-weight: bold;
